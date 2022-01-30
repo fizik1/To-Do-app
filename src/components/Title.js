@@ -4,6 +4,7 @@ import { useNavigate } from 'react-router-dom';
 
 
 function Title() {
+
     let navigate = useNavigate();
 
     let json =localStorage.getItem('json')
@@ -33,6 +34,13 @@ function Title() {
         navigate('/');
         
     }
+    React.useEffect(() => {
+        window.addEventListener('keydown', (event) => {
+          if (event.keyCode==13){
+              handler()
+          }
+        });
+      });
 
 
     return(
