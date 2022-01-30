@@ -1,0 +1,53 @@
+.title {
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.title .text {
+  margin-bottom: 30px;
+}
+
+.title .writeng-area {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: auto;
+  border: 2px solid #3C2389;
+  border-radius: 6px;
+}
+
+.title .writeng-area .input-area {
+  padding: 10px 10px;
+  width: 300px;
+  background-color: #171A2B;
+  border-radius: 6px;
+}
+
+.title .writeng-area .input-area input {
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: #fff;
+  margin-left: 10px;
+  font-size: 18px;
+}
+
+.title .writeng-area .search-area button {
+  width: 100px;
+  height: 100%;
+  background: -webkit-gradient(linear, left top, right top, from(#3C2389), to(#9701F7));
+  background: linear-gradient(to right, #3C2389, #9701F7);
+  border: none;
+  color: #fff;
+  border-radius: 4px;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+}
+/*# sourceMappingURL=title.css.map */

@@ -1,0 +1,58 @@
+.content {
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  margin-top: 40px;
+  padding-bottom: 50px;
+}
+
+.content .vazefa {
+  width: 500px;
+  padding: 10px;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+
+.content .vazefa input {
+  font-size: 20px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: #fff;
+  margin-left: 10px;
+  font-weight: 600;
+  width: 380px;
+}
+
+.content .vazefa .buttons {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.content .vazefa .buttons button {
+  background-color: transparent;
+  border: none;
+  margin-right: 10px;
+}
+
+.content .vazefa .buttons .deactive {
+  display: none;
+}
+
+.content .vazefa .buttons .active {
+  display: block;
+}
+/*# sourceMappingURL=content.css.map */
